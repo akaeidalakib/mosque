@@ -1,6 +1,7 @@
 import React from 'react';
 
 const page = () => {
+
     return (
         <div>
             <div className="overflow-x-auto">
@@ -9,8 +10,8 @@ const page = () => {
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>subs</th>
+                            <th>payment type</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -21,7 +22,7 @@ const page = () => {
                                 <div className="flex items-center space-x-3">
                                     <div className="avatar">
                                         <div className="mask mask-squircle w-12 h-12">
-                                            <img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5728efc8b6aa606956c3aa1d/1553360462481-3KRGQRB4T66LUBFFUTZI/AH-Donate-Icon-50.png?format=300w" />
                                         </div>
                                     </div>
                                     <div>
@@ -31,11 +32,11 @@ const page = () => {
                                 </div>
                             </td>
                             <td>
-                                Zemlak, Daniel and Leannon
+                                JANAZA FUND MONTHLY SUBSCRIPTION
                                 <br />
-                                <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
+                                <span className="badge badge-ghost badge-sm">£10.00 every month</span>
                             </td>
-                            <td>Purple</td>
+                            <td>Paypal</td>
                             <th>
                                 <button className="btn btn-ghost btn-xs">details</button>
                             </th>
@@ -46,7 +47,7 @@ const page = () => {
                                 <div className="flex items-center space-x-3">
                                     <div className="avatar">
                                         <div className="mask mask-squircle w-12 h-12">
-                                            <img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5728efc8b6aa606956c3aa1d/1553360462481-3KRGQRB4T66LUBFFUTZI/AH-Donate-Icon-50.png?format=300w" />
                                         </div>
                                     </div>
                                     <div>
@@ -56,11 +57,11 @@ const page = () => {
                                 </div>
                             </td>
                             <td>
-                                Carroll Group
+                                MONTHLY HIFZ FEES
                                 <br />
-                                <span className="badge badge-ghost badge-sm">Tax Accountant</span>
+                                <span className="badge badge-ghost badge-sm">£50.00 every month</span>
                             </td>
-                            <td>Red</td>
+                            <td>Card</td>
                             <th>
                                 <button className="btn btn-ghost btn-xs">details</button>
                             </th>
@@ -71,7 +72,7 @@ const page = () => {
                                 <div className="flex items-center space-x-3">
                                     <div className="avatar">
                                         <div className="mask mask-squircle w-12 h-12">
-                                            <img src="/tailwind-css-component-profile-4@56w.png" alt="Avatar Tailwind CSS Component" />
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5728efc8b6aa606956c3aa1d/1553360462481-3KRGQRB4T66LUBFFUTZI/AH-Donate-Icon-50.png?format=300w" />
                                         </div>
                                     </div>
                                     <div>
@@ -81,9 +82,9 @@ const page = () => {
                                 </div>
                             </td>
                             <td>
-                                Rowe-Schoen
+                                £20 MONTHLY DONATION
                                 <br />
-                                <span className="badge badge-ghost badge-sm">Office Assistant I</span>
+                                <span className="badge badge-ghost badge-sm">£20.00 every month</span>
                             </td>
                             <td>Crimson</td>
                             <th>
@@ -96,7 +97,7 @@ const page = () => {
                                 <div className="flex items-center space-x-3">
                                     <div className="avatar">
                                         <div className="mask mask-squircle w-12 h-12">
-                                            <img src="/tailwind-css-component-profile-5@56w.png" alt="Avatar Tailwind CSS Component" />
+                                            <img src="https://images.squarespace-cdn.com/content/v1/5728efc8b6aa606956c3aa1d/1655582776984-M5KJCBIJPOMJKQQAZBDP/Girls_Youth_Club.jpg?format=500w" />
                                         </div>
                                     </div>
                                     <div>
@@ -106,11 +107,11 @@ const page = () => {
                                 </div>
                             </td>
                             <td>
-                                Wyman-Ledner
+                                GIRLS YOUTH CLUB
                                 <br />
-                                <span className="badge badge-ghost badge-sm">Community Outreach Specialist</span>
+                                <span className="badge badge-ghost badge-sm">£5.00 every month</span>
                             </td>
-                            <td>Indigo</td>
+                            <td>paypal</td>
                             <th>
                                 <button className="btn btn-ghost btn-xs">details</button>
                             </th>
@@ -120,8 +121,8 @@ const page = () => {
                     <tfoot>
                         <tr>
                             <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Subs</th>
+                            <th>payment type</th>
                             <th></th>
                         </tr>
                     </tfoot>

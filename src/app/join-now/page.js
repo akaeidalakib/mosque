@@ -33,9 +33,9 @@ const Join = () => {
             <label className=""> Gender </label>
             <div className="relative w-56 mt-2 bg-gray-100 rounded-lg">
               <input className="peer hidden" type="checkbox" name="select-1" id="select-1" />
-              <label for="select-1" className="flex w-full cursor-pointer rounded-lg select-none border p-2 px-3 text-sm text-gray-700 ring-blue-400 peer-checked:ring">Select Option </label>
-              <svg xmlns="http://www.w3.org/2000/svg" className="pointer-events-none absolute right-5 top-3 h-4 text-gray-600 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              <label htmlFor="select-1" className="flex w-full cursor-pointer rounded-lg select-none border p-2 px-3 text-sm text-gray-700 ring-blue-400 peer-checked:ring">Select Option </label>
+              <svg xmlns="http://www.w3.org/2000/svg" className="pointer-events-none absolute right-5 top-3 h-4 text-gray-600 transition peer-checked:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
               <ul className="max-h-0 select-none flex-col overflow-hidden rounded-b-lg shadow-md transition-all duration-300 peer-checked:max-h-56 peer-checked:py-3">
                 <li className="cursor-pointer px-3 py-2 text-sm text-gray-500 hover:bg-blue-500 hover:text-white">Male</li>
@@ -50,7 +50,7 @@ const Join = () => {
           </div>
         </div>
         <div className="mb-4">
-          <label className="mb-2 block text-sm font-bold" for="country">Country</label
+          <label className="mb-2 block text-sm font-bold" htmlFor="country">Country</label
           ><select className="shadow-sm mb-3 cursor-pointer w-full appearance-none rounded border border-gray-300 py-2 px-3  leading-tight outline-none ring-blue-500 focus:ring" id="country" required="">
             <option value="AF" className="">Afghanistan</option>
             <option value="AL" className="">Albania</option>

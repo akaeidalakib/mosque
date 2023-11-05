@@ -34,15 +34,15 @@ const Hero = () => {
                                     <h3 className="mb-4 text-xl font-bold text-emerald-900 sm:mb-6 sm:text-center sm:text-2xl">Start your trial now</h3>
                                     <form>
                                         <div className="mb-1 sm:mb-2">
-                                            <label for="firstName" className="mb-1 inline-block font-medium text-emerald-900">First name</label>
+                                            <label htmlFor="firstName" className="mb-1 inline-block font-medium text-emerald-900">First name</label>
                                             <input placeholder="Albert" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="firstName" name="firstName" />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
-                                            <label for="lastName" className="mb-1 inline-block font-medium text-emerald-900">Last name</label>
+                                            <label htmlFor="lastName" className="mb-1 inline-block font-medium text-emerald-900">Last name</label>
                                             <input placeholder="Einstein" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="lastName" name="lastName" />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
-                                            <label for="email" className="mb-1 inline-block font-medium text-emerald-900">E-mail</label>
+                                            <label htmlFor="email" className="mb-1 inline-block font-medium text-emerald-900">E-mail</label>
                                             <input placeholder="albert.einstein@example.com" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="email" name="email" />
                                         </div>
                                         <div className="mt-4 mb-2 sm:mb-4">
