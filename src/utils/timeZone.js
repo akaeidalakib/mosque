@@ -1,5 +1,6 @@
-export function convertTo12HourFormat(time24) {
+export function convertTo12HourFormat(zone24) {
     // Check if the input is a valid 24-hour time format
+    const time24 = zone24.toString()
     const regex = /^([01]\d|2[0-3]):?([0-5]\d)$/;
     if (!regex.test(time24)) {
         return 'Invalid time format. Please provide a valid 24-hour time format.';
@@ -19,6 +20,6 @@ export function convertTo12HourFormat(time24) {
 }
 
 // Example usage
-const time24 = '13:30'; // Replace this with your desired 24-hour time
-const time12 = convertTo12HourFormat(time24);
-console.log(time12);
+// const time24 = '13:30'; // Replace this with your desired 24-hour time
+// const time12 = convertTo12HourFormat(time24);
+// console.log(time12);

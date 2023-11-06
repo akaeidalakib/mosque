@@ -31,22 +31,22 @@ const Hero = () => {
                             </div>
                             <div className="w-full max-w-xl xl:w-5/12 xl:px-8">
                                 <div className="overflow-hidden rounded-xl border-t-4 border-emerald-600 bg-white p-7 shadow-2xl shadow-emerald-300 sm:p-10">
-                                    <h3 className="mb-4 text-xl font-bold text-emerald-900 sm:mb-6 sm:text-center sm:text-2xl">Start your trial now</h3>
+                                    <h3 className="mb-4 text-xl font-bold text-emerald-900 sm:mb-6 sm:text-center sm:text-2xl">Join our newsletter</h3>
                                     <form>
                                         <div className="mb-1 sm:mb-2">
                                             <label htmlFor="firstName" className="mb-1 inline-block font-medium text-emerald-900">First name</label>
-                                            <input placeholder="Albert" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="firstName" name="firstName" />
+                                            <input placeholder="Akaeid" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="firstName" name="firstName" />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
                                             <label htmlFor="lastName" className="mb-1 inline-block font-medium text-emerald-900">Last name</label>
-                                            <input placeholder="Einstein" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="lastName" name="lastName" />
+                                            <input placeholder="Al Akib" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="lastName" name="lastName" />
                                         </div>
                                         <div className="mb-1 sm:mb-2">
                                             <label htmlFor="email" className="mb-1 inline-block font-medium text-emerald-900">E-mail</label>
-                                            <input placeholder="albert.einstein@example.com" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="email" name="email" />
+                                            <input placeholder="akaeid@gmail.com" required="" type="text" className="mb-2 h-12 w-full flex-grow appearance-none rounded border border-gray-300 bg-white px-4 shadow-sm ring-emerald-200 transition duration-200 focus:border-emerald-400 focus:outline-none focus:ring" id="email" name="email" />
                                         </div>
                                         <div className="mt-4 mb-2 sm:mb-4">
-                                            <button type="submit" className="inline-flex h-12 w-full items-center justify-center rounded-xl bg-emerald-600 px-6 font-medium tracking-wide text-white shadow-md ring-emerald-200 transition duration-200 hover:bg-emerald-700 focus:outline-none focus:ring">Start Trial</button>
+                                            <button type="submit" className="inline-flex h-12 w-full items-center justify-center rounded-xl bg-emerald-600 px-6 font-medium tracking-wide text-white shadow-md ring-emerald-200 transition duration-200 hover:bg-emerald-700 focus:outline-none focus:ring">Submit now</button>
                                         </div>
                                         <p className="text-xs text-gray-600 sm:text-sm">* Creditcard not required</p>
                                     </form>
