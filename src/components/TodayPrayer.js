@@ -21,7 +21,7 @@ const TodayPrayer = () => {
   }, []);
   useEffect(() => {
     const fetchPData = async () => {
-      const res = await fetch("https://api.aladhan.com/v1/timings/05-11-2023?latitude=51.376163&longitude=-0.098234&method=2");
+      const res = await fetch("https://api.aladhan.com/v1/timings/06-11-2023?latitude=51.376163&longitude=-0.098234&method=2");
       const prayerData = await res.json();
       setTodaySalat(prayerData.data.timings)
       setTodayDate(prayerData.data.date)

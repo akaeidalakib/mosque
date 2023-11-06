@@ -12,7 +12,7 @@ const DonationCard = () => {
                     <h2 className="card-title">Madrasa fees</h2>
                     <p>£20.00 every month</p>
                     <div className="flex  gap-y-4 flex-col justify center">
-                        <Link href='/store'><button className="w-56 bg-gray-900 px-6 py-3 text-white transition hover:bg-gray-700">Donate $20</button>
+                        <Link href='/cart'><button className="w-56 bg-gray-900 px-6 py-3 text-white transition hover:bg-gray-700">Donate $20</button>
                         </Link>
                     </div>
                 </div>
