@@ -24,18 +24,18 @@ const Teams = () => {
                 <div className="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
                     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-2">
                         <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
-                            <Image className="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8M" width={500} height={500} alt="" />
+                            <Image className="object-cover w-full rounded-xl aspect-square" src="/akib.jpg" width={500} height={500} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">JAHIR HUSSAIN</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Akaeid Al Akib</h1>
 
                             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">President and Chair of Trustees</p>
                             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">12/4/2023</p>
                         </div>
 
                         <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
-                            <Image className="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8M" width={500} height={500} alt="" />
+                            <Image className="object-cover w-full rounded-xl aspect-square" src="/rukon.jpg" width={500} height={500} alt="" />
 
-                            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">RAJA HYDERALI</h1>
+                            <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">MD Rukon</h1>
 
                             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">Head of Finance</p>
                             <p className="mt-2 text-gray-500 capitalize dark:text-gray-300">12/4/2023</p>
