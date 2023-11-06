@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import React from 'react';
 
 const page = () => {
     return (
         <div>
-            <section className="h-screen bg-gray-100 py-12 sm:py-16 lg:py-20">
+            <section className="bg-gray-100 py-12 sm:py-16 lg:py-20">
                 <div className="mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-center">
                         <h1 className="text-2xl font-semibold text-gray-900">Your Cart</h1>
@@ -101,12 +102,14 @@ const page = () => {
                                 </div>
 
                                 <div className="mt-6 text-center">
-                                    <button type="button" className="group inline-flex w-full items-center justify-center rounded-md bg-gray-900 px-6 py-4 text-lg font-semibold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
-                                        Checkout
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:ml-8 ml-4 h-6 w-6 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                                        </svg>
-                                    </button>
+                                    <Link href="/checkout">
+                                        <button type="button" className="group inline-flex w-full items-center justify-center rounded-md bg-gray-900 px-6 py-4 text-lg font-semibold text-white transition-all duration-200 ease-in-out focus:shadow hover:bg-gray-800">
+                                            Checkout
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="group-hover:ml-8 ml-4 h-6 w-6 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                                                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                                            </svg>
+                                        </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
